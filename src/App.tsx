@@ -16,7 +16,7 @@ export default function App() {
       <header className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${scrolled ? 'bg-white/95 backdrop-blur-md shadow-sm' : 'bg-transparent'}`}>
         <div className="max-w-6xl mx-auto px-6 h-28 flex items-center justify-between">
           <div className="flex items-center gap-2">
-            <img src="/logo.png" alt="Asakaa" className="h-36 w-auto" />
+            <img src={`${import.meta.env.BASE_URL}logo.png`} alt="Asakaa" className="h-36 w-auto" />
             <span className="text-xs bg-gradient-to-r from-blue-500 to-blue-600 text-white px-2.5 py-1 rounded-full font-semibold shadow-sm">v1.1</span>
           </div>
 
@@ -99,7 +99,7 @@ export default function App() {
                 </div>
                 <div className="bg-gradient-to-br from-slate-800 via-slate-900 to-slate-800 p-4">
                   <img
-                    src="/hojatiempo.png"
+                    src={`${import.meta.env.BASE_URL}hojatiempo.png`}
                     alt="Hoja de Tiempo - Control de horas y productividad en tiempo real"
                     className="w-full h-auto rounded-lg"
                   />
@@ -202,7 +202,7 @@ export default function App() {
                 </div>
                 <div className="bg-slate-900 flex items-stretch">
                   <img
-                    src="/mitrabajo.png"
+                    src={`${import.meta.env.BASE_URL}mitrabajo.png`}
                     alt="Mi Trabajo - Vista del ingeniero con tareas y registro de tiempo"
                     className="w-full object-cover object-left"
                   />
@@ -215,7 +215,7 @@ export default function App() {
               <div className="grid lg:grid-cols-2">
                 <div className="bg-slate-900 flex items-stretch order-2 lg:order-1">
                   <img
-                    src="/ganttpng.png"
+                    src={`${import.meta.env.BASE_URL}ganttpng.png`}
                     alt="Gantt - Vista de planificación con carga de trabajo del equipo"
                     className="w-full object-cover object-right"
                   />
@@ -268,7 +268,7 @@ export default function App() {
                 </div>
                 <div className="bg-slate-900 flex items-stretch">
                   <img
-                    src="/hojatiempo.png"
+                    src={`${import.meta.env.BASE_URL}hojatiempo.png`}
                     alt="Hoja de Tiempo - Vista financiera con control de horas y costos"
                     className="w-full object-cover object-left"
                   />
@@ -357,7 +357,7 @@ export default function App() {
       <footer className="py-12 px-6 bg-slate-950 border-t border-slate-800">
         <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-between gap-6">
           <div className="flex items-center">
-            <img src="/logo.png" alt="Asakaa" className="h-36 w-auto brightness-0 invert" />
+            <img src={`${import.meta.env.BASE_URL}logo.png`} alt="Asakaa" className="h-36 w-auto brightness-0 invert" />
           </div>
           <nav className="flex gap-8 text-slate-400 text-sm">
             <a href="#" className="hover:text-white transition-colors">Privacidad</a>
